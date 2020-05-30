@@ -32,7 +32,8 @@ When possible, carry the zone number and zone letter. Put the zone number before
 When expressing a matrix which is a list of entries, use row major ordering. That is, each row should be an entry and each column should be a component of a vector.
 
 Example:
-
+| x | y | z | 
+|---|---|---|
 | x1 | y1 | z1 |
 | x2 | y2 | z2 |
 | .. | .. | .. |
