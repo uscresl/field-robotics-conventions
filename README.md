@@ -21,6 +21,10 @@ All base units should be expressed as [SI Base Units](https://en.wikipedia.org/w
 
 Temperature is generally expressed in celcius in most repos tho.
 
+# Rotational Units
+
+Rotations should be expressed as radians of 2pi
+
 # Earth Coordinates
 
 All earth coordinates should be represented as [UTM](https://en.wikipedia.org/wiki/Universal_Transverse_Mercator_coordinate_system) in the ENU frame. 
@@ -46,6 +50,13 @@ In some situations it is either extremely inconvenient or lossy to convert to th
 
 If possible contain the portion of the program which uses a nonstandard convention to a small portion.
 
+# Time Stamps
+
+Time stamps should be in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601), preferably with a PST time or UTC.
+If using PST include timezone information.
+ISOtime can be confusing but worth using in most cases.
+
+If you don't want to do that, unix epoch (in seconds) is acceptable, but should be documented as a deviation.
 
 # Coding
 
