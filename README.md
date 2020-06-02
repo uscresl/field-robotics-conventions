@@ -61,3 +61,7 @@ If you don't want to do that, unix epoch (in seconds) is acceptable, but should 
 # Coding
 
 Python: Use PEP 8.
+
+# Plotting
+
+All plots should use the [seaborn](https://seaborn.pydata.org/) default stylesheet.
